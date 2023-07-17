@@ -4,7 +4,7 @@
  * main - start point 
  * Return: always 0 (success)
  */
-int main(void)
+	int main(void)
 {
 	int n, m;
 
@@ -19,7 +19,7 @@ int main(void)
 				if (n != 56 || m != 57)
 				{
 					putchar(',');
-					putchar(',');
+					putchar(' ');
 				}
 			}
 		}
