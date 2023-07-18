@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * start point
+ * print_alphabet_x10 - start point
  */
 void print_alphabet_x10(void)
 {
