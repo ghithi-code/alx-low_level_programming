@@ -6,7 +6,7 @@
  * @a: square matrix of wich we print
  * @size: size of the matrix
  */
-void print_diagsuns(int *a, int size)
+void print_diagsums(int *a, int size)
 {
 	int i;
 
