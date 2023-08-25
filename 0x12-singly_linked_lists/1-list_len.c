@@ -2,12 +2,13 @@
 #include "lists.h"
 
 /**
- * count_list_elements - Calculates the number of elements in a linked list
+ * list_len - Calculates the number of elements in a linked list
  * @h: A pointer to the list_t list
  *
  * Result: Returns the count of elements in the list
  */
-size_t count_list_elements(const list_t *h)
+size_t list_len
+(const list_t *h)
 {
 	size_t count = 0;
 
