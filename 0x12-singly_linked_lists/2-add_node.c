@@ -7,7 +7,7 @@
  * @head: Double pointer to the list_t list
  * @str: New string to be stored in the node
  *
- * Returns: Address of the newly added element, or NULL if allocation fails
+ * Return: Address of the newly added element, or NULL if allocation fails
  */
 list_t *add_node(list_t **head, const char *str)
 {
