@@ -16,10 +16,9 @@ void close_file(int fd);
  * @argv: array of pointers to the arguments.
  * Return:  0 = success.
  * Description: If the argument count is incorrect - exit code 97.
- *            If file_from does not exist 98.
- *            If file_to cannot be created exit code 99.
- *            If file_to or file_from cannot closed - exit code 100
-
+ * if file_from does not exist 98.
+ * if file_to cannot be created exit code 99.
+ * if file_to or file_from cannot closed - exit code 100
  */
 
 char *create_buffer(char *file)
