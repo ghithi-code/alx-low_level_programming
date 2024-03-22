@@ -5,4 +5,5 @@
 4---> function that frees a dlistint_t list.
 5--->function that returns the nth node of a dlistint_t linked list.
 6---> function that returns the sum of all the data (n) of a dlistint_t linked list.
+7---> function that inserts a new node at a given position.
 
